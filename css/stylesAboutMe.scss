@@ -1,0 +1,43 @@
+$colorBackGround:rgb(90, 144, 165);
+$backgroundColorMain:#212529;
+.container-fluid{
+    header{
+        padding: 0px;
+        a{animation: 1s ease-in-out 0s 1 sectionMidText}
+    }
+    main{
+        height: 100vh;
+        background:$colorBackGround;
+            div{
+                img{
+                    width: 100%;
+                    border-radius: 5px;
+                    animation: 1s ease-in-out 0s 1 sectionMidText;
+                }
+            }
+            .textDesc{
+                background-color: $backgroundTextAlpha;
+                border-radius: 5px;
+                text-align: center;
+                animation: 1s ease-in-out 0s 1 sectionMidText;
+                p{
+                    width: 100%;
+                    word-break: break-word;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+    }
+    footer{
+    }
+}
+@media screen and (max-width:320px){
+        main{
+            a{
+                display: none;
+            }
+        }
+}
+
+

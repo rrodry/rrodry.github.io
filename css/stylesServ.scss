@@ -1,0 +1,41 @@
+main{
+    animation: 1s ease-out 1 sectionMidText;
+    .divListas,.divListas2{
+        background-color: $backgroundTextAlpha;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        ul{
+            list-style: none;
+            margin: 0px;
+            padding: 10px;
+        }
+    }
+    .titleServ{
+        text-align: center;
+        background-color: black;
+        width: 100%;
+        margin:0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 20px;
+        h2{
+            margin: 0px;
+        }
+    }
+
+}
+@media screen and (max-width:768px) {
+    main{
+        .listServices{
+            width: 100% !important;
+        }
+        .divListas{
+        ul{
+            padding:0px;
+        }
+    }
+        .divListas2{
+        display: none
+    }
+}
+}
